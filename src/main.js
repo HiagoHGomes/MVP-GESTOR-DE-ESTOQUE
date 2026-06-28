@@ -11,7 +11,7 @@ function createWindow() {
     }
   })
 
-  win.loadFile('src/renderer/index.html')
+  win.loadFile('src/renderer/login.html') // ← agora abre o login
 }
 
 app.whenReady().then(createWindow)
